@@ -7,15 +7,15 @@ name = "dynamax"
 dynamic = ["version"]
 requires-python = ">= 3.10"
 dependencies = [
-    "jax>=0.3.15",
-    "jaxlib",
+    "jax==0.4.26",
+    "jaxlib==0.4.26",
+    "tensorflow-probability>=0.23,<0.25",
     "fastprogress",
     "optax",
-    "tensorflow_probability",
     "scikit-learn",
     "jaxtyping",
     "typing-extensions",
-    "numpy"
+    "numpy>=1.24,<2.0"
 ]
 
 authors = [
